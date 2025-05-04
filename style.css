@@ -95,6 +95,11 @@ nav a {
 }
 
 .hero-text p {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+  text-align: justify;
+  max-width: 100%;
   font-size: 18px;
   line-height: 1.6;
   margin-top: 20px;
@@ -543,16 +548,23 @@ nav a {
     grid-template-columns: repeat(2, 1fr);
     gap: 14px;
   }
-  .hackathon-item, .hackathon-item img {
-    height: auto;
-    min-height: unset;
-    object-fit: contain;
-    width: 100%;
-    background: #f8f8f8;
+  .hero-text p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
   }
-  .hackathon-overlay {
-    font-size: 13px;
-    padding: 10px;
+  #hero-description {
+    display: block;
+    max-width: 90vw;
+    margin: 24px auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-family: 'Inter', sans-serif;
+    color: #000;
   }
 }
 
@@ -710,6 +722,19 @@ nav a {
     font-size: 13px;
     padding: 10px;
   }
+  #hero-description {
+    display: block;
+    max-width: 90vw;
+    margin: 24px auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
 }
 
 /* Hackathons Innovation Pitching */
@@ -811,6 +836,19 @@ nav a {
   .hackathon-overlay {
     font-size: 13px;
     padding: 10px;
+  }
+  #hero-description {
+    display: block;
+    max-width: 90vw;
+    margin: 24px auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-family: 'Inter', sans-serif;
+    color: #000;
   }
 }
 
