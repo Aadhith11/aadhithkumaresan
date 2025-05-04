@@ -506,6 +506,10 @@ nav a {
   .education-section, .activity-section {
     padding: 30px 0 20px 0;
   }
+  .hackathon-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
 }
 @media (max-width: 600px) {
   .education-header, .activity-header {
@@ -534,6 +538,21 @@ nav a {
   .edu-quote {
     font-size: 11px;
     padding-left: 8px;
+  }
+  .hackathon-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .hackathon-item, .hackathon-item img {
+    height: auto;
+    min-height: unset;
+    object-fit: contain;
+    width: 100%;
+    background: #f8f8f8;
+  }
+  .hackathon-overlay {
+    font-size: 13px;
+    padding: 10px;
   }
 }
 
